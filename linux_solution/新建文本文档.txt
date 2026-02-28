@@ -1,0 +1,20 @@
+本地传服务器
+scp -P 10243 C:\Users\Administrator\Desktop\steerling\test_steering_json.py root@ip.ah1.suanlix.cn:/root/steering
+
+密码  884983zZ@
+
+
+
+
+scp -P 10243 root@ip.ah1.suanlix.cn://root/steering/steerling_full_results_complete.json C:\Users\Administrator\Desktop\steerling\
+
+
+下载整个目录
+scp -r -P 10243 root@ip.ah1.suanlix.cn:/root/myfolder ~/Desktop/
+
+
+
+
+
+
+
